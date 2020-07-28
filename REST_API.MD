@@ -555,7 +555,57 @@ Note that you should expect this to *not* be a exhaustive list and handle unknow
 
     The response data field is an instance of the [Margin](./DATA_TYPES.MD#Margin) structure.
 
+## Instrument
+
+### Get the Complete List of Instruments
+
+    GET /v1/instrument
+
+- Weight
+
+    This endpoint has a rate limit weight of `1`
+
+- Permission
+
+    This endpoint does not require any permission
+
+- Query Parameters
+
+    This endpoint does not accept any query parameters
+
+- Body Parameters
+
+    This endpoint does not accept any body parameters
+
+- Response
+
+    The response data field is an array of the [Instrument](./DATA_TYPES.MD#Instrument) structure.
+
 ## Ticker
+
+### Get Tickers of All Instruments
+
+    GET /v1/ticker
+
+- Weight
+
+    This endpoint has a rate limit weight of `1`
+
+- Permission
+
+    This endpoint does not require any permission
+
+- Query Parameters
+
+    This endpoint does not accept any query parameters
+
+- Body Parameters
+
+    This endpoint does not accept any body parameters
+
+- Response
+
+    The response data field is an array of the [Ticker](./DATA_TYPES.MD#Ticker) structure.
 
 ### Get Ticker of Instrument
 
